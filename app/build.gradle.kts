@@ -5,9 +5,7 @@ plugins {
 android {
     namespace = "com.example.mygame"
     compileSdk {
-        version = release(35) {
-            minorApiLevel = 1
-        }
+        version = release(35)
     }
 
     defaultConfig {
