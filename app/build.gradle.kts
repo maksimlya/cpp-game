@@ -5,15 +5,15 @@ plugins {
 android {
     namespace = "com.example.mygame"
     compileSdk {
-        version = release(36) {
+        version = release(35) {
             minorApiLevel = 1
         }
     }
 
     defaultConfig {
         applicationId = "com.example.mygame"
-        minSdk = 36
-        targetSdk = 36
+        minSdk = 35
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
